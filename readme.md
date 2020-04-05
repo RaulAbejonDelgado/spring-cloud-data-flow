@@ -33,6 +33,8 @@ https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spri
 /*Donloading the docker compose file rabbitmq*/
 https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-server/docker-compose-rabbitmq.yml
 
+/*Up docker-compose replacing kafka by rabbitmq*/
+docker-compose -f ./docker-compose.yml -f ./docker-compose-rabbitmq.yml up
 
 /*connect to docker Spring Cloud Data Flow shell*/
 
