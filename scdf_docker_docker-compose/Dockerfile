@@ -24,6 +24,7 @@ RUN mv /usr/local/bin/docker-compose /usr/bin/docker-compose
 RUN chmod +x /usr/bin/docker-compose
 RUN apt install containerd -y
 RUN apt install docker.io -y
+RUN mkdir /tmp/rabiitmq
 
 
 # Install "software-properties-common" (for the "add-apt-repository")

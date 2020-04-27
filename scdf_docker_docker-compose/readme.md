@@ -8,3 +8,7 @@
     docker-compose -f ./docker-compose.yml -f ./docker-compose-rabbitmq.yml up
     docker rm $(docker ps -qa)
 
+    add Application -> second option(Bulk import application coordinates from an HTTP URI location. )
+    https://dataflow.spring.io/rabbitmq-maven-latest
+    https://dataflow.spring.io/task-maven-latest
+

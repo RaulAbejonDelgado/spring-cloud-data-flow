@@ -11,6 +11,8 @@ services:
       - "33060:3306"
     expose:
       - "3306"
+    volumes:
+      - /tmp/mysql_home:/var/lib/mysql      
 
   kafka:
     image: confluentinc/cp-kafka:5.2.1
